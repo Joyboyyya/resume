@@ -1,10 +1,50 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en" style="width:100%; height:100%;">
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jithendra's Resume</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    .pdf-container {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
-<body style="width:100%; height:100%; margin:0;">
-  <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/Joyboyyya/resume/e38050314b864c381f01da9922405956c97b8a54/Jithendra_Jagannatha_Kagathi_Resume_33.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+<body>
+  <div class="pdf-container">
+    <!-- Option 1: Direct PDF embed (works in most modern browsers) -->
+    <object
+      data="https://raw.githubusercontent.com/Joyboyyya/resume/main/Jithendra_Jagannatha_Kagathi_Resume_33.pdf"
+      type="application/pdf"
+      width="100%"
+      height="100%">
+      
+      <!-- Option 2: Fallback to Google Docs Viewer -->
+      <iframe
+        src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Joyboyyya/resume/main/Jithendra_Jagannatha_Kagathi_Resume_33.pdf&embedded=true"
+        frameborder="0">
+        
+        <!-- Final fallback message -->
+        <p>It appears your browser doesn't support embedded PDFs or iframes.
+           <a href="https://raw.githubusercontent.com/Joyboyyya/resume/main/Jithendra_Jagannatha_Kagathi_Resume_33.pdf">
+           Click here to download the PDF</a> instead.
+        </p>
+      </iframe>
+    </object>
+  </div>
 </body>
 </html>
